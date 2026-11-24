@@ -12,15 +12,7 @@ This guide contains planned edits and operator commands, not completed changes. 
 
 ## 1. Prepare the three repositories
 
-Create separate branches in `terraform-google-bigquery-datastream`, `flex-bigquery-terraform`, and `flex-bigquery-soda`. The first two are already in this folder. If the third is absent:
-
-```sh
-gh repo clone navikt/flex-bigquery-soda
-```
-
-Read each repository's contributor instructions. Do not change credentials, state, provider versions, or unrelated infrastructure.
-
-The consumer applies production automatically on `main`. Prepare changes on branches and follow step 8's deployment order.
+Create separate branches in `terraform-google-bigquery-datastream`, `flex-bigquery-terraform`, and `flex-bigquery-soda`. 
 
 ## 2. Correct the shared module documentation
 
