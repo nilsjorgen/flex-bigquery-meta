@@ -352,20 +352,20 @@ Lower staleness can trigger costly runtime merges. Never delete/recreate data or
 
 ## Implementation status
 
-Update this list when a step is complete. Do not pick up a step with the status "Done". Start with the first step that is not done. Keep the developer in the loop. Always ask if there are any unclarities related to the tasks. 
+Replace ⬜ with ✅ when a step is done.
 
-| Step | Status | Notes |
-| --- | --- | --- |
-| 1. Prepare the three repositories | Not started | |
-| 2. Correct the shared module documentation | Not started | |
-| 3. Prepare the production stream overrides | Not started | |
-| 4. Update replication reconciliation | Not started | |
-| 5. Convert business/current-state checks to live source reads | Not started | |
-| 6. Update direct Soda freshness contracts | Not started | |
-| 7. Validate changes | Not started | |
-| 8. Deploy in safe stages | Not started | |
-| 9. Inventory and save rollback values | Not started | |
-| 10. Update existing tables | Not started | |
-| 11. Optional gcloud stream update | Not started | |
-| 12. Verify production | Not started | |
-| 13. Roll back if needed | Not started | |
+| Step | Task                                | Status |
+|------|-------------------------------------|--------|
+| 1    | Prepare repositories                | ⬜      |
+| 2    | Correct module documentation        | ⬜      |
+| 3    | Prepare stream overrides            | ⬜      |
+| 4    | Update replication reconciliation   | ⬜      |
+| 5    | Use live source reads               | ⬜      |
+| 6    | Update Soda freshness contracts     | ⬜      |
+| 7    | Validate changes                    | ⬜      |
+| 8    | Deploy in safe stages               | ⬜      |
+| 9    | Save inventory and rollback values  | ⬜      |
+| 10   | Update existing tables              | ⬜      |
+| 11   | Optional gcloud stream update       | ⬜      |
+| 12   | Verify production                   | ⬜      |
+| 13   | Roll back if needed                 | ⬜      |
