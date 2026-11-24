@@ -37,3 +37,9 @@ repository.
 ## Writing style
 
 Follow `writing-style.md` for all documentation, instructions and explanations.
+
+# Workflow
+
+- Commit to `main` in the top-level meta respository.
+- Create a branch before commiting in the child directories
+- Do not push commits to upstream unless asked to.

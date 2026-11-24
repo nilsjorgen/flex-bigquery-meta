@@ -352,7 +352,7 @@ Lower staleness can trigger costly runtime merges. Never delete/recreate data or
 
 ## Implementation status
 
-Update this list when a step is complete. Do not pick up a step with the status "Done". Start with the first step that is not done.
+Update this list when a step is complete. Do not pick up a step with the status "Done". Start with the first step that is not done. Keep the developer in the loop. Always ask if there are any unclarities related to the tasks. 
 
 | Step | Status | Notes |
 | --- | --- | --- |
