@@ -1,3 +1,7 @@
 {
-  "projects": {}
+  "projects": {
+    "terraform-google-bigquery-datastream": "https://github.com/navikt/terraform-google-bigquery-datastream",
+    "flex-bigquery-terraform": "https://github.com/navikt/flex-bigquery-terraform",
+    "flex-bigquery-soda": "https://github.com/navikt/flex-bigquery-soda"
+  }
 }
